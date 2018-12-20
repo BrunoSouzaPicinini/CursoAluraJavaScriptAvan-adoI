@@ -33,7 +33,7 @@ class NegociacaoService {
 
     }
 
-    obterNegociacoesDaSemanaAnterior(callBack) {
+    obterNegociacoesDaSemanaAnterior() {
 
         return new Promise((resolve, reject) => {
             let xhr = new XMLHttpRequest();
@@ -55,7 +55,7 @@ class NegociacaoService {
         });
     }
 
-    obterNegociacoesDaSemanaRetrasada(callBack) {
+    obterNegociacoesDaSemanaRetrasada() {
         return new Promise((resolve, reject) => {
             let xhr = new XMLHttpRequest();
             xhr.open('GET', 'negociacoes/retrasada');

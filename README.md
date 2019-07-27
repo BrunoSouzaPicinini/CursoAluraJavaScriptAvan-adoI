@@ -4,9 +4,7 @@ Projeto do curso de JavaScript avançado da Alura
 
 Rodar projeto
 -------
-Para levantar o servidor, abra o terminal na pasta 
-<pre>aluraframe/server</pre>
- 
+Para levantar o servidor, abra o terminal na pasta server
 Execute o seguinte comando no seu terminal:
 
 <pre>npm start</pre>
